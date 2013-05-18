@@ -4,9 +4,9 @@ Donate link: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
-Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 9.0
+Requires at least: 3.4
+Tested up to: 3.6
+Stable tag: 10.0
 	
 You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. 
 This is a jQuery based fancy zoom.
@@ -98,6 +98,10 @@ Updated admin video management page
 
 New demo link, www.gopiplus.com
 
+= 10.0 = 
+
+Tested upto 3.6
+
 == Changelog ==
 
 = 1.0 =	 
@@ -124,3 +128,7 @@ Updated admin video management page
 = 9.0 =
 
 New demo link, www.gopiplus.com
+
+= 10.0 = 
+
+Tested upto 3.6
