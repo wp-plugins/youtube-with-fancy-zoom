@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Youtube with fancy zoom\n"
+"POT-Creation-Date: 2014-02-11 22:22+0800\n"
+"PO-Revision-Date: 2014-02-11 22:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../youtube-with-fancy-zoom.php:105 ../youtube-with-fancy-zoom.php:106
+#: ../youtube-with-fancy-zoom.php:179 ../youtube-with-fancy-zoom.php:180
+msgid "Youtube fancy zoom"
+msgstr ""
+
+#: ../youtube-with-fancy-zoom.php:151
+msgid "Widget Title"
+msgstr ""
+
+#: ../youtube-with-fancy-zoom.php:155
+msgid "Video ID (Enter 0 to display any random one)"
+msgstr ""
+
+#: ../youtube-with-fancy-zoom.php:248
+msgid "No data found."
+msgstr ""
+
+#: ../pages/content-add.php:30 ../pages/content-add.php:124
+#: ../pages/content-edit.php:58 ../pages/content-edit.php:146
+msgid "Please enter the title"
+msgstr ""
+
+#: ../pages/content-add.php:36 ../pages/content-add.php:128
+#: ../pages/content-edit.php:64 ../pages/content-edit.php:150
+msgid "Please enter the video link."
+msgstr ""
+
+#: ../pages/content-add.php:42 ../pages/content-edit.php:70
+msgid "Please enter the video code."
+msgstr ""
+
+#: ../pages/content-add.php:48 ../pages/content-edit.php:76
+msgid "Please select the display image."
+msgstr ""
+
+#: ../pages/content-add.php:56 ../pages/content-edit.php:84
+msgid "Please select the display status."
+msgstr ""
+
+#: ../pages/content-add.php:62 ../pages/content-edit.php:90
+msgid "Please select the sidebar display."
+msgstr ""
+
+#: ../pages/content-add.php:79
+msgid "New details was successfully added."
+msgstr ""
+
+#: ../pages/content-add.php:110 ../pages/content-edit.php:132
+msgid "Click here to view the details"
+msgstr ""
+
+#: ../pages/content-add.php:118 ../pages/content-edit.php:140
+#: ../pages/content-show.php:52
+msgid "Youtube with fancy zoom"
+msgstr ""
+
+#: ../pages/content-add.php:120
+msgid "Add details"
+msgstr ""
+
+#: ../pages/content-add.php:122 ../pages/content-edit.php:144
+msgid "Title:"
+msgstr ""
+
+#: ../pages/content-add.php:126 ../pages/content-edit.php:148
+msgid "Youtube watch link:"
+msgstr ""
+
+#: ../pages/content-add.php:130 ../pages/content-edit.php:152
+msgid "Youtube code:"
+msgstr ""
+
+#: ../pages/content-add.php:132 ../pages/content-edit.php:154
+msgid ""
+"If (http://www.youtube.com/watch?v=5TSPlykcdYk) this is your youtube video, "
+"then &ldquo;5TSPlykcdYk&rdquo; is your youtube code."
+msgstr ""
+
+#: ../pages/content-add.php:134 ../pages/content-edit.php:156
+msgid "Youtube thumbnail size:"
+msgstr ""
+
+#: ../pages/content-add.php:139 ../pages/content-edit.php:161
+msgid "Select thumbnail size."
+msgstr ""
+
+#: ../pages/content-add.php:141 ../pages/content-edit.php:163
+msgid "Display Image:"
+msgstr ""
+
+#: ../pages/content-add.php:146 ../pages/content-edit.php:168
+msgid "Which image you want to display?"
+msgstr ""
+
+#: ../pages/content-add.php:148 ../pages/content-edit.php:170
+msgid "Thumbnail Image link (My Thumbnail):"
+msgstr ""
+
+#: ../pages/content-add.php:150 ../pages/content-edit.php:172
+msgid "Please enter your image link."
+msgstr ""
+
+#: ../pages/content-add.php:152 ../pages/content-edit.php:174
+msgid "Display Status:"
+msgstr ""
+
+#: ../pages/content-add.php:157 ../pages/content-edit.php:179
+msgid "Do you want the viceo to show in front end?"
+msgstr ""
+
+#: ../pages/content-add.php:159 ../pages/content-edit.php:181
+msgid "Sidebar Display:"
+msgstr ""
+
+#: ../pages/content-add.php:164 ../pages/content-edit.php:186
+msgid "Do you want the viceo to show in sidebar widget?"
+msgstr ""
+
+#: ../pages/content-add.php:169
+msgid "Insert Details"
+msgstr ""
+
+#: ../pages/content-add.php:170 ../pages/content-edit.php:192
+msgid "Cancel"
+msgstr ""
+
+#: ../pages/content-add.php:171 ../pages/content-edit.php:193
+#: ../pages/content-show.php:130
+msgid "Help"
+msgstr ""
+
+#: ../pages/content-add.php:177 ../pages/content-edit.php:199
+#: ../pages/content-show.php:139
+msgid "Check official website for more information"
+msgstr ""
+
+#: ../pages/content-add.php:178 ../pages/content-edit.php:200
+#: ../pages/content-show.php:140
+msgid "click here"
+msgstr ""
+
+#: ../pages/content-edit.php:16 ../pages/content-show.php:22
+msgid "Oops, selected details doesnt exist."
+msgstr ""
+
+#: ../pages/content-edit.php:115
+msgid "Details was successfully updated."
+msgstr ""
+
+#: ../pages/content-edit.php:142 ../pages/content-edit.php:191
+msgid "Update Details"
+msgstr ""
+
+#: ../pages/content-show.php:40
+msgid "Selected record was successfully deleted."
+msgstr ""
+
+#: ../pages/content-show.php:53 ../pages/content-show.php:129
+msgid "Add New"
+msgstr ""
+
+#: ../pages/content-show.php:66 ../pages/content-show.php:79
+msgid "Video ID"
+msgstr ""
+
+#: ../pages/content-show.php:67 ../pages/content-show.php:80
+msgid "Title"
+msgstr ""
+
+#: ../pages/content-show.php:68 ../pages/content-show.php:81
+msgid "Code"
+msgstr ""
+
+#: ../pages/content-show.php:69 ../pages/content-show.php:82
+msgid "Image"
+msgstr ""
+
+#: ../pages/content-show.php:70 ../pages/content-show.php:83
+msgid "Size"
+msgstr ""
+
+#: ../pages/content-show.php:71 ../pages/content-show.php:84
+msgid "Display Image"
+msgstr ""
+
+#: ../pages/content-show.php:72 ../pages/content-show.php:85
+msgid "Display"
+msgstr ""
+
+#: ../pages/content-show.php:73 ../pages/content-show.php:86
+msgid "Sidebar"
+msgstr ""
+
+#: ../pages/content-show.php:102
+msgid "Edit"
+msgstr ""
+
+#: ../pages/content-show.php:103
+msgid "Delete"
+msgstr ""
+
+#: ../pages/content-show.php:119
+msgid "No records available."
+msgstr ""
+
+#: ../pages/content-show.php:134
+msgid "Plugin configuration option"
+msgstr ""
+
+#: ../pages/content-show.php:136
+msgid "Drag and drop the widget to your sidebar."
+msgstr ""

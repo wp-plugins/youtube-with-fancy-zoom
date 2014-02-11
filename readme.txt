@@ -5,11 +5,10 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
 Requires at least: 3.4
-Tested up to: 3.6
-Stable tag: 10.0
+Tested up to: 3.8
+Stable tag: 10.1
 	
-You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. 
-This is a jQuery based fancy zoom.
+You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. This is a jQuery based fancy zoom.
 
 == Description ==
 
@@ -65,11 +64,11 @@ More info : [http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/](h
 
 == Screenshots ==
 
-1. Admin add/edit/delete youtube video screen("Youtube with fancy zoom" link under "setting" TAB (second column "code" is your youtube code). http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
+1. Front Screen. http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 
-3. Front end screen click and see fancy zoom. http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
+2. Front Screen. http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 
-4. This is the fancy zoom screen. http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
+3. Admin Screen. http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 
 == Upgrade Notice ==
 
@@ -102,6 +101,12 @@ New demo link, www.gopiplus.com
 
 Tested upto 3.6
 
+= 10.1 = 
+
+1. Tested up to 3.8
+2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
+Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
+
 == Changelog ==
 
 = 1.0 =	 
@@ -132,3 +137,9 @@ New demo link, www.gopiplus.com
 = 10.0 = 
 
 Tested upto 3.6
+
+= 10.1 = 
+
+1. Tested up to 3.8
+2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
+Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.

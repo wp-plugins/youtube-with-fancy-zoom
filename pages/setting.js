@@ -1,6 +1,6 @@
 /**
  *     Youtube with fancy zoom
- *     Copyright (C) 2011  www.gopiplus.com
+ *     Copyright (C) 2011 - 2014 www.gopiplus.com
  * 
  *     This program is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-function _ywfz_form()
+function ywfz_submit()
 {
 	if((document.ywfz_form.ywfz_title.value).trim()=="")
 	{
@@ -67,12 +67,21 @@ String.prototype.trim = function()
 }
 
 
-function _ywfz_redirect()
+function ywfz_redirect()
 {
-	window.location = "options-general.php?page=youtube-with-fancy-zoom/youtube-with-fancy-zoom.php";
+	window.location = "options-general.php?page=youtube-with-fancy-zoom";
 }
 
-function _ywfz_help()
+function ywfz_help()
 {
 	window.open("http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/");
 }
+
+function ywfz_delete(id)
+{
+	if(confirm("Do you want to delete this record?"))
+	{
+		document.frm_ywfz_display.action="options-general.php?page=youtube-with-fancy-zoom&ac=del&did="+id;
+		document.frm_ywfz_display.submit();
+	}
+}	
