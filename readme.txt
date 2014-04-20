@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
 Requires at least: 3.4
-Tested up to: 3.8
-Stable tag: 10.1
+Tested up to: 3.9
+Stable tag: 10.2
 	
 You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. This is a jQuery based fancy zoom.
 
@@ -14,17 +14,13 @@ You tube with fancy zoom is a media viewing application that supports webs most 
 
 Check official website for live demo [http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/](http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/ "Click here to live demo")
 
-
 * Live Demo : [Live Demo](http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/ "Click here to live demo")		
 * User Comments : [User Comments](http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/#comments "Click here to comments page")				
 * About author : [About author](http://www.gopiplus.com/work/ "Click here to author page")			
 
-You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. This is a jQuery based fancy zoom.
+YouTube with fancy zoom (This is a jQuery based fancy zoom) wordpress plugin create the YouTube video gallery in the wordpress website. This plugin retrieve one random video from the video list. In admin we have separate video management page to insert the videos. We can add many videos in the admin and it will show only one video in the front end. Short code available to add the video in the pages and posts.
 
-Youtube with fancy zoom (This is a jQuery based fancy zoom) wordpress plugin create the youtube video gallery in the wordpress website. 
-This plugin retrieve one random video from the video list. 
-In admin we have separate video management page to insert the videos. 
-We can add many videos in the admin and it will show only one video in the front end. Short code available to add the video in the pages and posts.
+What is jQuery based fancy zoom? Fancy zoom is a simple, modest script used to overlay video on the current page. click and see the demo you will get understand.
 
 Features of this plugin
 
@@ -107,6 +103,11 @@ Tested upto 3.6
 2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
 Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
 
+= 10.2 = 
+
+1. Tested up to 3.9
+2. Restricted direct page access.
+
 == Changelog ==
 
 = 1.0 =	 
@@ -143,3 +144,8 @@ Tested upto 3.6
 1. Tested up to 3.8
 2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
 Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
+
+= 10.2 = 
+
+1. Tested up to 3.9
+2. Restricted direct page access.
