@@ -4,7 +4,7 @@ Plugin Name: Youtube with fancy zoom
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Description: Youtube with fancy zoom plugin is a media viewing application that supports webs most popular youtube video. This is a jQuery based fancy zoom.  
 Author: Gopi Ramasamy
-Version: 10.2
+Version: 10.3
 Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Donate link: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 */
@@ -152,7 +152,7 @@ class g_ywfz_widget_register extends WP_Widget
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 		</p>
 		<p>
-            <label for="<?php echo $this->get_field_id('g_ywfz_id'); ?>"><?php _e('Video ID (Enter 0 to display any random one)', 'youtube-fancy-zoom'); ?> </label>
+            <label for="<?php echo $this->get_field_id('g_ywfz_id'); ?>"><?php _e('Video ID (Enter 0 to display random one)', 'youtube-fancy-zoom'); ?> </label>
             <input class="widefat" id="<?php echo $this->get_field_id('g_ywfz_id'); ?>" name="<?php echo $this->get_field_name('g_ywfz_id'); ?>" type="text" value="<?php echo $g_ywfz_id; ?>" />
         </p>
 		<?php

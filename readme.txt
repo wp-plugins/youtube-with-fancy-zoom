@@ -5,8 +5,10 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
 Requires at least: 3.4
-Tested up to: 3.9
-Stable tag: 10.2
+Tested up to: 4.0
+Stable tag: 10.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
 You tube with fancy zoom is a media viewing application that supports webs most popular you tube video. This is a jQuery based fancy zoom.
 
@@ -20,7 +22,7 @@ Check official website for live demo [http://www.gopiplus.com/work/2010/07/18/yo
 
 YouTube with fancy zoom (This is a jQuery based fancy zoom) wordpress plugin create the YouTube video gallery in the wordpress website. This plugin retrieve one random video from the video list. In admin we have separate video management page to insert the videos. We can add many videos in the admin and it will show only one video in the front end. Short code available to add the video in the pages and posts.
 
-What is jQuery based fancy zoom? Fancy zoom is a simple, modest script used to overlay video on the current page. click and see the demo you will get understand.
+What is jQuery based fancy zoom? Fancy zoom is a simple, modest script used to overlay video on the current page. Check official website for more information.
 
 Features of this plugin
 
@@ -44,19 +46,18 @@ http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 
 == Frequently Asked Questions ==
 
-**Where to add video?**  	
-**How to arrange the width of the widget thumnail image?**  			
-**What is youtube code in the form?**  	
-**What is Title?** 		
-**What is Youtube watch link ?** 		
-**What is Youtube code?** 		
-**What is Thumbnail Image link?** 		
-**What is Display Image?** 		
-**What is Display Status?** 		
-**What is Sidebar Display?** 		
-
-To read answer please check the plugin webpage.			
-More info : [http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/](http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/ "Click here to Installation Instruction and Configuration")	
+* Where to add video?
+* How to arrange the width of the widget thumnail image?	
+* What is youtube code in the form?
+* What is Title?
+* What is Youtube watch link ?	
+* What is Youtube code?
+* What is Thumbnail Image link?	
+* What is Display Image?
+* What is Display Status?	
+* What is Sidebar Display?	
+		
+Answer : [http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/](http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/ "Answer")	
 
 == Screenshots ==
 
@@ -108,6 +109,10 @@ Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
 1. Tested up to 3.9
 2. Restricted direct page access.
 
+= 10.3 = 
+
+1. Tested up to 4.0
+
 == Changelog ==
 
 = 1.0 =	 
@@ -149,3 +154,7 @@ Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
 
 1. Tested up to 3.9
 2. Restricted direct page access.
+
+= 10.3 = 
+
+1. Tested up to 4.0
