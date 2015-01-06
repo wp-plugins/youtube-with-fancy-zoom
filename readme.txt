@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
 Requires at least: 3.4
-Tested up to: 4.0
-Stable tag: 10.3
+Tested up to: 4.1
+Stable tag: 10.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -113,6 +113,10 @@ Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
 
 1. Tested up to 4.0
 
+= 10.4 =
+
+1. Tested up to 4.1
+
 == Changelog ==
 
 = 1.0 =	 
@@ -158,3 +162,7 @@ Plugin *.po file (youtube-fancy-zoom.po) available in the languages folder.
 = 10.3 = 
 
 1. Tested up to 4.0
+
+= 10.4 =
+
+1. Tested up to 4.1
