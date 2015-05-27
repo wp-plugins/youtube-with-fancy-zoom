@@ -4,7 +4,7 @@ Plugin Name: Youtube with fancy zoom
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Description: Youtube with fancy zoom plugin is a media viewing application that supports webs most popular youtube video. This is a jQuery based fancy zoom.  
 Author: Gopi Ramasamy
-Version: 10.4
+Version: 10.5
 Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Donate link: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 */
