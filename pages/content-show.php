@@ -4,6 +4,7 @@
 if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 {
 	$did = isset($_GET['did']) ? $_GET['did'] : '0';
+	if(!is_numeric($did)) { die('<p>Are you sure you want to do this?</p>'); }
 	
 	$ywfz_success = '';
 	$ywfz_success_msg = FALSE;
