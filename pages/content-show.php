@@ -21,7 +21,7 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 	
 	if ($result != '1')
 	{
-		?><div class="error fade"><p><strong><?php _e('Oops, selected details doesnt exist.', 'youtube-fancy-zoom'); ?></strong></p></div><?php
+		?><div class="error fade"><p><strong><?php _e('Oops, selected details doesnt exist.', 'youtube-with-fancy-zoom'); ?></strong></p></div><?php
 	}
 	else
 	{
@@ -39,7 +39,7 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 			
 			//	Set success message
 			$ywfz_success_msg = TRUE;
-			$ywfz_success = __('Selected record was successfully deleted.', 'youtube-fancy-zoom');
+			$ywfz_success = __('Selected record was successfully deleted.', 'youtube-with-fancy-zoom');
 		}
 	}
 	
@@ -51,8 +51,8 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 ?>
 <div class="wrap">
   <div id="icon-edit" class="icon32 icon32-posts-post"></div>
-    <h2><?php _e('Youtube with fancy zoom', 'youtube-fancy-zoom'); ?>
-	<a class="add-new-h2" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=add"><?php _e('Add New', 'youtube-fancy-zoom'); ?></a></h2>
+    <h2><?php _e('Youtube with fancy zoom', 'youtube-with-fancy-zoom'); ?>
+	<a class="add-new-h2" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=add"><?php _e('Add New', 'youtube-with-fancy-zoom'); ?></a></h2>
     <div class="tool-box">
 	<?php
 		$sSql = "SELECT * FROM `".WP_G_YWFZ_TABLE."` order by ywfz_id desc";
@@ -65,27 +65,27 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
         <thead>
           <tr>
             <!--<th class="check-column" scope="col" style="width:15px;"><input type="checkbox" name="ywfz_group_item[]" /></th>-->
-			<th scope="col"><?php _e('Video ID', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Title', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Code', 'youtube-fancy-zoom'); ?></th>
-            <th scope="col"><?php _e('Image', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Size', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Display Image', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Display', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Sidebar', 'youtube-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Video ID', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Title', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Code', 'youtube-with-fancy-zoom'); ?></th>
+            <th scope="col"><?php _e('Image', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Size', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Display Image', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Display', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Sidebar', 'youtube-with-fancy-zoom'); ?></th>
           </tr>
         </thead>
 		<tfoot>
           <tr>
             <!--<th class="check-column" scope="col" style="height:15px;"><input type="checkbox" name="ywfz_group_item[]" /></th>-->
-			<th scope="col"><?php _e('Video ID', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Title', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Code', 'youtube-fancy-zoom'); ?></th>
-            <th scope="col"><?php _e('Image', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Size', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Display Image', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Display', 'youtube-fancy-zoom'); ?></th>
-			<th scope="col"><?php _e('Sidebar', 'youtube-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Video ID', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Title', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Code', 'youtube-with-fancy-zoom'); ?></th>
+            <th scope="col"><?php _e('Image', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Size', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Display Image', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Display', 'youtube-with-fancy-zoom'); ?></th>
+			<th scope="col"><?php _e('Sidebar', 'youtube-with-fancy-zoom'); ?></th>
           </tr>
         </tfoot>
 		<tbody>
@@ -101,8 +101,8 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 						<td><?php echo $data['ywfz_id']; ?></td>
 						<td><?php echo stripslashes($data['ywfz_title']); ?>
 						<div class="row-actions">
-						<span class="edit"><a title="Edit" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=edit&amp;did=<?php echo $data['ywfz_id']; ?>"><?php _e('Edit', 'youtube-fancy-zoom'); ?></a> | </span>
-						<span class="trash"><a onClick="javascript:ywfz_delete('<?php echo $data['ywfz_id']; ?>')" href="javascript:void(0);"><?php _e('Delete', 'youtube-fancy-zoom'); ?></a></span> 
+						<span class="edit"><a title="Edit" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=edit&amp;did=<?php echo $data['ywfz_id']; ?>"><?php _e('Edit', 'youtube-with-fancy-zoom'); ?></a> | </span>
+						<span class="trash"><a onClick="javascript:ywfz_delete('<?php echo $data['ywfz_id']; ?>')" href="javascript:void(0);"><?php _e('Delete', 'youtube-with-fancy-zoom'); ?></a></span> 
 						</div>			
 						</td>
 						<td><?php echo stripslashes($data['ywfz_code']); ?></td>
@@ -118,7 +118,7 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
 			}
 			else
 			{
-				?><tr><td colspan="8" align="center"><?php _e('No records available.', 'youtube-fancy-zoom'); ?></td></tr><?php 
+				?><tr><td colspan="8" align="center"><?php _e('No records available.', 'youtube-with-fancy-zoom'); ?></td></tr><?php 
 			}
 			?>
 		</tbody>
@@ -128,20 +128,20 @@ if (isset($_POST['frm_ywfz_display']) && $_POST['frm_ywfz_display'] == 'yes')
       </form>	
 	  <div class="tablenav">
 	  <h2>
-	  <a class="button add-new-h2" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=add"><?php _e('Add New', 'youtube-fancy-zoom'); ?></a>
-	  <a class="button add-new-h2" target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('Help', 'youtube-fancy-zoom'); ?></a>
+	  <a class="button add-new-h2" href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>&amp;ac=add"><?php _e('Add New', 'youtube-with-fancy-zoom'); ?></a>
+	  <a class="button add-new-h2" target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('Help', 'youtube-with-fancy-zoom'); ?></a>
 	  </h2>
 	  </div>
 	  <div style="height:5px"></div>
-	<h3><?php _e('Plugin configuration option', 'youtube-fancy-zoom'); ?></h3>
+	<h3><?php _e('Plugin configuration option', 'youtube-with-fancy-zoom'); ?></h3>
 	<ol>
-		<li><?php _e('Drag and drop the widget to your sidebar.', 'youtube-fancy-zoom'); ?></li>
-		<li><?php _e('Add directly in to the theme using PHP code.', 'youtube-fancy-zoom'); ?></li>
-		<li><?php _e('Add the plugin in the posts or pages using short code.', 'youtube-fancy-zoom'); ?></li>
+		<li><?php _e('Drag and drop the widget to your sidebar.', 'youtube-with-fancy-zoom'); ?></li>
+		<li><?php _e('Add directly in to the theme using PHP code.', 'youtube-with-fancy-zoom'); ?></li>
+		<li><?php _e('Add the plugin in the posts or pages using short code.', 'youtube-with-fancy-zoom'); ?></li>
 	</ol>
 	<p class="description">
-		<?php _e('Check official website for more information', 'youtube-fancy-zoom'); ?>
-		<a target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('click here', 'youtube-fancy-zoom'); ?></a>
+		<?php _e('Check official website for more information', 'youtube-with-fancy-zoom'); ?>
+		<a target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('click here', 'youtube-with-fancy-zoom'); ?></a>
 	</p>
 	</div>
 </div>

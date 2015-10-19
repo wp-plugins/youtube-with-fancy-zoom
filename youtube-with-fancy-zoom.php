@@ -4,9 +4,11 @@ Plugin Name: Youtube with fancy zoom
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Description: Youtube with fancy zoom plugin is a media viewing application that supports webs most popular youtube video. This is a jQuery based fancy zoom.  
 Author: Gopi Ramasamy
-Version: 10.6
+Version: 10.7
 Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Donate link: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
+Text Domain: youtube-with-fancy-zoom
+Domain Path: /languages
 */
 
 global $wpdb, $wp_version;
@@ -102,8 +104,8 @@ class g_ywfz_widget_register extends WP_Widget
 {
 	function __construct() 
 	{
-		$widget_ops = array('classname' => 'widget_text youtube-fancy-zoom-widget', 'description' => __('Youtube fancy zoom', 'youtube-fancy-zoom'), 'youtube-fancy-zoom');
-		parent::__construct('youtube-fancy-zoom', __('Youtube fancy zoom', 'youtube-fancy-zoom'), $widget_ops);
+		$widget_ops = array('classname' => 'widget_text youtube-fancy-zoom-widget', 'description' => __('Youtube fancy zoom', 'youtube-with-fancy-zoom'), 'youtube-fancy-zoom');
+		parent::__construct('youtube-fancy-zoom', __('Youtube fancy zoom', 'youtube-with-fancy-zoom'), $widget_ops);
 	}
 	
 	function widget( $args, $instance ) 
@@ -148,11 +150,11 @@ class g_ywfz_widget_register extends WP_Widget
 	
 		?>
 		<p>
-			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Widget Title', 'youtube-fancy-zoom'); ?></label>
+			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Widget Title', 'youtube-with-fancy-zoom'); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 		</p>
 		<p>
-            <label for="<?php echo $this->get_field_id('g_ywfz_id'); ?>"><?php _e('Video ID (Enter 0 to display random one)', 'youtube-fancy-zoom'); ?> </label>
+            <label for="<?php echo $this->get_field_id('g_ywfz_id'); ?>"><?php _e('Video ID (Enter 0 to display random one)', 'youtube-with-fancy-zoom'); ?> </label>
             <input class="widefat" id="<?php echo $this->get_field_id('g_ywfz_id'); ?>" name="<?php echo $this->get_field_name('g_ywfz_id'); ?>" type="text" value="<?php echo $g_ywfz_id; ?>" />
         </p>
 		<?php
@@ -176,8 +178,8 @@ function g_ywfz_add_to_menu()
 {
 	if (is_admin()) 
 	{
-		add_options_page( __('Youtube fancy zoom', 'youtube-fancy-zoom'), 
-				__('Youtube fancy zoom', 'youtube-fancy-zoom'), 'manage_options', 'youtube-with-fancy-zoom', 'g_ywfz_admin_option' );
+		add_options_page( __('Youtube fancy zoom', 'youtube-with-fancy-zoom'), 
+				__('Youtube fancy zoom', 'youtube-with-fancy-zoom'), 'manage_options', 'youtube-with-fancy-zoom', 'g_ywfz_admin_option' );
 	}
 }
 
@@ -249,14 +251,14 @@ function g_ywfz_shortcode( $atts )
 	}
 	else
 	{
-		$g_ywfz_pp = __('No data found.', 'youtube-fancy-zoom');
+		$g_ywfz_pp = __('No data found.', 'youtube-with-fancy-zoom');
 	}
 	return $g_ywfz_pp;
 }
 
 function g_ywfz_textdomain() 
 {
-	  load_plugin_textdomain( 'youtube-fancy-zoom', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	  load_plugin_textdomain( 'youtube-with-fancy-zoom', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 
 add_shortcode( 'youtube-fancy-zoom', 'g_ywfz_shortcode' );

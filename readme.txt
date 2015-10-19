@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/youtube-with-fancy-zoom/
 Tags: Youtube, Video, Fancy Zoom
 Requires at least: 3.4
-Tested up to: 4.3
-Stable tag: 10.6
+Tested up to: 4.3.1
+Stable tag: 10.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	

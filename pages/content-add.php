@@ -28,25 +28,25 @@ if (isset($_POST['ywfz_form_submit']) && $_POST['ywfz_form_submit'] == 'yes')
 	$form['ywfz_title'] = isset($_POST['ywfz_title']) ? $_POST['ywfz_title'] : '';
 	if ($form['ywfz_title'] == '')
 	{
-		$ywfz_errors[] = __('Please enter the title', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please enter the title', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}	
 	$form['ywfz_watch'] = isset($_POST['ywfz_watch']) ? $_POST['ywfz_watch'] : '';
 	if ($form['ywfz_watch'] == '')
 	{
-		$ywfz_errors[] = __('Please enter the video link.', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please enter the video link.', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}
 	$form['ywfz_code'] = isset($_POST['ywfz_code']) ? $_POST['ywfz_code'] : '';
 	if ($form['ywfz_code'] == '')
 	{
-		$ywfz_errors[] = __('Please enter the video code.', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please enter the video code.', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}
 	$form['ywfz_img'] = isset($_POST['ywfz_img']) ? $_POST['ywfz_img'] : '';
 	if ($form['ywfz_img'] == '')
 	{
-		$ywfz_errors[] = __('Please select the display image.', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please select the display image.', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}
 	$form['ywfz_size'] = isset($_POST['ywfz_size']) ? $_POST['ywfz_size'] : '';
@@ -54,13 +54,13 @@ if (isset($_POST['ywfz_form_submit']) && $_POST['ywfz_form_submit'] == 'yes')
 	$form['ywfz_status'] = isset($_POST['ywfz_status']) ? $_POST['ywfz_status'] : '';
 	if ($form['ywfz_status'] == '')
 	{
-		$ywfz_errors[] = __('Please select the display status.', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please select the display status.', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}
 	$form['ywfz_sidebar'] = isset($_POST['ywfz_sidebar']) ? $_POST['ywfz_sidebar'] : '';
 	if ($form['ywfz_sidebar'] == '')
 	{
-		$ywfz_errors[] = __('Please select the sidebar display.', 'youtube-fancy-zoom');
+		$ywfz_errors[] = __('Please select the sidebar display.', 'youtube-with-fancy-zoom');
 		$ywfz_error_found = TRUE;
 	}
 	//$form['ywfz_expire'] = isset($_POST['ywfz_expire']) ? $_POST['ywfz_expire'] : '';
@@ -77,7 +77,7 @@ if (isset($_POST['ywfz_form_submit']) && $_POST['ywfz_form_submit'] == 'yes')
 		);
 		$wpdb->query($sql);
 		
-		$ywfz_success = __('New details was successfully added.', 'youtube-fancy-zoom');
+		$ywfz_success = __('New details was successfully added.', 'youtube-with-fancy-zoom');
 		
 		// Reset the form fields
 		$form = array(
@@ -108,7 +108,7 @@ if ($ywfz_error_found == FALSE && strlen($ywfz_success) > 0)
 	?>
 	<div class="updated fade">
 		<p><strong><?php echo $ywfz_success; ?> 
-		<a href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>"><?php _e('Click here to view the details', 'youtube-fancy-zoom'); ?></a></strong></p>
+		<a href="<?php echo WP_G_YWFZ_ADMIN_URL; ?>"><?php _e('Click here to view the details', 'youtube-with-fancy-zoom'); ?></a></strong></p>
 	</div>
 	<?php
 }
@@ -116,66 +116,66 @@ if ($ywfz_error_found == FALSE && strlen($ywfz_success) > 0)
 <script language="JavaScript" src="<?php echo WP_G_YWFZ_PLUGIN_URL; ?>/pages/setting.js"></script>
 <div class="form-wrap">
 	<div id="icon-edit" class="icon32 icon32-posts-post"><br></div>
-	<h2><?php _e('Youtube with fancy zoom', 'youtube-fancy-zoom'); ?></h2>
+	<h2><?php _e('Youtube with fancy zoom', 'youtube-with-fancy-zoom'); ?></h2>
 	<form name="ywfz_form" method="post" action="#" onsubmit="return ywfz_submit()"  >
-      <h3><?php _e('Add details', 'youtube-fancy-zoom'); ?></h3>
+      <h3><?php _e('Add details', 'youtube-with-fancy-zoom'); ?></h3>
       
-		<label for="tag-title"><?php _e('Title:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Title:', 'youtube-with-fancy-zoom'); ?></label>
 		<input name="ywfz_title" type="text" id="ywfz_title" value="" size="50" maxlength="150" /></td>
-		<p><?php _e('Please enter the title', 'youtube-fancy-zoom'); ?></p>
+		<p><?php _e('Please enter the title', 'youtube-with-fancy-zoom'); ?></p>
 		
-		<label for="tag-title"><?php _e('Youtube watch link:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Youtube watch link:', 'youtube-with-fancy-zoom'); ?></label>
 		<input name="ywfz_watch" type="text" id="ywfz_watch" value="" size="70" maxlength="1000" />
-		<p><?php _e('Please enter the video link.', 'youtube-fancy-zoom'); ?> (Ex: http://www.youtube.com/watch?v=5TSPlykcdYk)</p>
+		<p><?php _e('Please enter the video link.', 'youtube-with-fancy-zoom'); ?> (Ex: http://www.youtube.com/watch?v=5TSPlykcdYk)</p>
 		
-		<label for="tag-title"><?php _e('Youtube code:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Youtube code:', 'youtube-with-fancy-zoom'); ?></label>
 		<input name="ywfz_code" type="text" id="ywfz_code" value=""  size="30" maxlength="70" />
-		<p><?php _e('If (http://www.youtube.com/watch?v=5TSPlykcdYk) this is your youtube video, then &ldquo;5TSPlykcdYk&rdquo; is your youtube code.', 'youtube-fancy-zoom'); ?></p>
+		<p><?php _e('If (http://www.youtube.com/watch?v=5TSPlykcdYk) this is your youtube video, then &ldquo;5TSPlykcdYk&rdquo; is your youtube code.', 'youtube-with-fancy-zoom'); ?></p>
 		
-		<label for="tag-title"><?php _e('Youtube thumbnail size:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Youtube thumbnail size:', 'youtube-with-fancy-zoom'); ?></label>
 		<select name="ywfz_size" id="ywfz_size">
             <option value='0'>Big</option>
             <option value='1'>Small</option>
           </select>
-		 <p><?php _e('Select thumbnail size.', 'youtube-fancy-zoom'); ?></p>
+		 <p><?php _e('Select thumbnail size.', 'youtube-with-fancy-zoom'); ?></p>
 		 
-		<label for="tag-title"><?php _e('Display Image:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Display Image:', 'youtube-with-fancy-zoom'); ?></label>
 		<select name="ywfz_img" id="ywfz_img">
             <option value='Youtube Thumbnail'>Youtube Thumbnail</option>
 			<option value='My Thumbnail'>My Thumbnail</option>
          </select>
-		 <p><?php _e('Which image you want to display?', 'youtube-fancy-zoom'); ?></p>
+		 <p><?php _e('Which image you want to display?', 'youtube-with-fancy-zoom'); ?></p>
 		 
-		<label for="tag-title"><?php _e('Thumbnail Image link (My Thumbnail):', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Thumbnail Image link (My Thumbnail):', 'youtube-with-fancy-zoom'); ?></label>
 		<input name="ywfz_imglink" type="text" id="ywfz_imglink" value=""  size="70" maxlength="1000" />
-		<p><?php _e('Please enter your image link.', 'youtube-fancy-zoom'); ?></p>
+		<p><?php _e('Please enter your image link.', 'youtube-with-fancy-zoom'); ?></p>
 		 
-		<label for="tag-title"><?php _e('Display Status:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Display Status:', 'youtube-with-fancy-zoom'); ?></label>
 		<select name="ywfz_status" id="ywfz_status">
             <option value='Yes'>Yes</option>
             <option value='No'>No</option>
          </select>
-		 <p><?php _e('Do you want the viceo to show in front end?', 'youtube-fancy-zoom'); ?></p>
+		 <p><?php _e('Do you want the viceo to show in front end?', 'youtube-with-fancy-zoom'); ?></p>
 		 
-		<label for="tag-title"><?php _e('Sidebar Display:', 'youtube-fancy-zoom'); ?></label>
+		<label for="tag-title"><?php _e('Sidebar Display:', 'youtube-with-fancy-zoom'); ?></label>
 		<select name="ywfz_sidebar" id="ywfz_sidebar">
             <option value='Yes'>Yes</option>
             <option value='No'>No</option>
          </select>
-		 <p><?php _e('Do you want the viceo to show in sidebar widget?', 'youtube-fancy-zoom'); ?></p>
+		 <p><?php _e('Do you want the viceo to show in sidebar widget?', 'youtube-with-fancy-zoom'); ?></p>
 	  	  
       <input name="ywfz_id" id="ywfz_id" type="hidden" value="">
       <input type="hidden" name="ywfz_form_submit" value="yes"/>
       <p class="submit">
-        <input name="publish" lang="publish" class="button add-new-h2" value="<?php _e('Insert Details', 'youtube-fancy-zoom'); ?>" type="submit" />&nbsp;
-        <input name="publish" lang="publish" class="button add-new-h2" onclick="ywfz_redirect()" value="<?php _e('Cancel', 'youtube-fancy-zoom'); ?>" type="button" />&nbsp;
-        <input name="Help" lang="publish" class="button add-new-h2" onclick="ywfz_help()" value="<?php _e('Help', 'youtube-fancy-zoom'); ?>" type="button" />
+        <input name="publish" lang="publish" class="button add-new-h2" value="<?php _e('Insert Details', 'youtube-with-fancy-zoom'); ?>" type="submit" />&nbsp;
+        <input name="publish" lang="publish" class="button add-new-h2" onclick="ywfz_redirect()" value="<?php _e('Cancel', 'youtube-with-fancy-zoom'); ?>" type="button" />&nbsp;
+        <input name="Help" lang="publish" class="button add-new-h2" onclick="ywfz_help()" value="<?php _e('Help', 'youtube-with-fancy-zoom'); ?>" type="button" />
       </p>
 	  <?php wp_nonce_field('ywfz_form_add'); ?>
     </form>
 </div>
 <p class="description">
-	<?php _e('Check official website for more information', 'youtube-fancy-zoom'); ?>
-	<a target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('click here', 'youtube-fancy-zoom'); ?></a>
+	<?php _e('Check official website for more information', 'youtube-with-fancy-zoom'); ?>
+	<a target="_blank" href="<?php echo WP_G_YWFZ_FAV; ?>"><?php _e('click here', 'youtube-with-fancy-zoom'); ?></a>
 </p>
 </div>
